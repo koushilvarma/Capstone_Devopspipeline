@@ -86,7 +86,7 @@ app.get('/info', (req, res) => {
 // Start server
 app.listen(PORT, HOST, () => {
   console.log(`✅ Server running at http://${HOST}:${PORT}`);
-  console.log(`📦 Environment: ${process.env.NODE_ENV || 'development'}`);
+  console.log(`📦         Environment: ${process.env.NODE_ENV || 'development'}`);
   console.log(`🐳 Ready for Docker & Kubernetes deployment`);
 });
 
